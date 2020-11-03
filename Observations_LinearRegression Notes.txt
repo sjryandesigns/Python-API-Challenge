@@ -1,0 +1,42 @@
+Observations:
+1. As expected, we see a strong relationship between city latitude and max temperature. The closer to the equator, 0 Latitude, we get higher max temperatures.
+Those temps drop the further from the equator. 
+2. We see a somewhat weaker relationship between city latitude and humidity. There is a cluster of higher humidity at higher northern latitudes, but the same is not seen in 
+Southern latitudes. This and the lack of a strong visible correlation possibly suggests other influencing factors. 
+3. Cloudiness and Wind Speed both appear to have very little correlation with city latitude.
+
+
+Linear Regressions:
+
+** Northern Hemisphere - Max Temp vs. Latitude Linear Regression
+We see a strong correlation betweeen max temp and latitude in the northern hemisphere. Correlation coefficient is -0.85.
+As latitude goes up, max temp goes down.
+
+** Southern Hemisphere - Max Temp vs. Latitude Linear Regression
+We see a correlation betweeen max temp and latitude in the southern hemisphere. However, its correlation is not as strong as
+that of the northern hemisphere. Correlation coefficient is -0.64. 
+
+
+** Northern Hemisphere - Humidity (%) vs. Latitude Linear Regression
+We see a very weak correlation between latitude and humidity in the northern hemisphere. 
+Correlation coefficient is 0.29. 
+
+** Southern Hemisphere - Humidity (%) vs. Latitude Linear Regression
+We see an even weaker correlation between latitude and humidity in the sourthern hemisphere. 
+Correlation coefficient is -0.08
+
+** Northern Hemisphere - Cloudiness (%) vs. Latitude Linear Regression
+We see a very weak correlation between latitude and cloudiness in the northern hemisphere. 
+Correlation coefficient is 0.12. 
+
+** Southern Hemisphere - Cloudiness (%) vs. Latitude Linear Regression
+We see a very weak correlation between latitude and cloudiness in the southern hemisphere. 
+Correlation coefficient is 0.26. 
+
+** Northern Hemisphere - Wind Speed (mph) vs. Latitude Linear Regression
+We see a very weak correlation between latitude and wind speed in the northern hemisphere. 
+Correlation coefficient is 0.22. 
+
+** Southern Hemisphere - Wind Speed (mph) vs. Latitude Linear Regression
+We see an even weaker correlation between latitude and wind speed in the sourthern hemisphere. 
+Correlation coefficient is -0.06
